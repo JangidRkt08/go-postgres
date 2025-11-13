@@ -1,0 +1,76 @@
+# Ignore node_modules folder
+/node_modules
+
+# Ignore logs
+/logs
+*.log
+
+# Ignore database files
+/db.sqlite3
+db.sqlite3-journal
+
+# Ignore OS files
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs
+ehthumbs_v2.db
+*.swp
+*.swo
+*.dll
+*.exe
+*.zip
+*.rar
+*.msi
+*.gif
+*.png
+*.bz2
+*.tgz
+*.iso
+
+# Ignore local env files
+.env
+.env.sample
+.env.development
+.env.production
+.env.test
+
+# Ignore cache files
+__pycache__
+*.pyc
+*.pyo
+
+# Ignore coverage files
+coverage.xml
+*.coveragerc
+
+# Ignore virtualenv files
+.venv
+env
+env3
+env.sample
+*.egg-info
+dist
+build
+
+# Ignore pipenv files
+Pipfile
+.pipenv
+
+# Ignore IDE files
+*.iml
+.idea
+*.ipynb
+profile.default
+.pytest_cache
+
+# Ignore local dev files
+.vscode
+.dev.env
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Ignore database migrations
+migrations
+alembic.ini
