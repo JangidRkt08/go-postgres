@@ -23,7 +23,7 @@ go-postgres/
     └── handler.go          # Contains core logic, database connections, and SQL queries
 ```
 
-    ## 🛠️ Libraries & Implementation Details
+## 🛠️ Libraries & Implementation Details
 
 This project utilizes specific libraries to handle routing, configuration, and database connectivity. Here is a breakdown of how they function and how they are implemented in this project:
 
@@ -126,4 +126,3 @@ Since I Wrote the README based on standard practices, here is a deeper explanati
 3.  **Database Connection String**:
     * The formatting `postgres://user:password@host:port/dbname?sslmode=disable` is crucial. It tells the `lib/pq` driver exactly where to find your Postgres server. The `sslmode=disable` is often used in local development to avoid SSL certificate errors.
 
-    
